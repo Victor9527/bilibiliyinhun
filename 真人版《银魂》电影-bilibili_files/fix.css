@@ -1,0 +1,25 @@
+/**
+ * 确保公共头尾的 box-sizing
+ */
+.z_top_container, .z_top_container *, .footer-public, .footer-public * {
+	box-sizing: content-box;
+}
+.z_top_container a:hover {
+	text-decoration: none;
+}
+.z_top_container img {
+	/* max-width: 100% 会导致头像变成椭圆 */
+	max-width: none;
+}
+.z_top_container * {
+	font-weight: normal;
+}
+ul ul {
+	margin: 0;
+}
+/**
+ * 为搜索建议框设置字号
+ */
+.bilibili-suggest {
+	font-size: 12px;
+}

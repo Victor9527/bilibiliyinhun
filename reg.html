@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+	</head>
+	<style>
+	.reg{
+		text-decoration: none;
+		width: 500px;
+		margin: 200px auto;
+		
+	}
+	h2:after{
+		content: "";
+		width: 220px;
+		display: inline-block;
+		height: 0;
+		border: 1px solid red;
+	}
+	span{
+		display: inline-block;
+			width: 80px;
+				height:40px;
+			line-height: 40px;
+			text-align: right;
+	}
+	h2:before{
+		content: "";
+		width: 220px;
+		display: inline-block;
+		height: 0;
+		border: 1px solid red;
+	}
+	input{
+		width: 400px;
+		height: 30px;
+		display: inline-block;
+		float: right;
+	}
+	a{
+		width: 400px;
+		height: 50px;
+		line-height:50px ;
+		
+		margin: 20px 80px;
+		text-decoration: none;
+		text-align: center;
+		color: white;
+		background: skyblue;
+		display: inline-block;
+	}
+	</style>
+	<body>
+	<div class='reg'>
+		<h2>注册</h2>
+		<label for="uname"><span>用户名：</span><input type="text" id='uname' />
+		</label> <br /><br />
+		<label for="pwd">
+			<span>密码：</span><input type="text"id='pwd' />
+		</label>
+		<br />
+		<label for="pwd1">
+			<span>确认密码：</span><input type="text" id='pwd1' />
+		</label>
+		<br />
+		<a href="javascript:;"id='btn'>注册</a>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$('#btn').click(function(){
+			var user = localStorage.getItem('user');
+			
+			if(!user){
+				if($('#pwd')==$('#pwd1')){
+					
+				}else{
+					alert("两次输入的密码不一致");
+				}
+			}else{
+				alert("用户名已存在，请重新想一个");
+			}
+		})
+	</script>
+	</body>
+</html>

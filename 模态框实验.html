@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>登录注册界面模态框</title>
+</head>
+<style>
+    *{
+        margin: 0 ;padding: 0;list-style: none;text-decoration: none;
+        color: white;
+    }
+
+    .modal-content{
+        width: 380px;
+        height: 310px;
+        position: relative;
+        position: absolute;
+        top: 100px;
+
+    }
+
+
+    #close{
+    	width: 30px;
+    	height: 30px;
+    	position:absolute;
+    	top: -17px;
+    	right: -10px;
+    	background: red url(images/close.png)no-repeat center ;
+    	z-index: 666;
+    	border-radius: 50%;
+    	
+    }
+    
+
+</style>
+<body>
+
+<!-- 按钮触发模态框 -->
+<div class="juzhao-div swiper-slide"><img src="images/1.jpg"  class="imgbtn" data-toggle="modal" data-target="#myModal">
+       </div>
+
+
+
+ <!--模态框（Modal）--> 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" id="close" class=" close" 
+            		data-dismiss="modal"      
+                	aria-hidden="true">
+                	
+            </button>
+            <img src="images/1.jpg" alt="" />
+    	</div>	
+    </div>
+</div>
+
+
+
+
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+//	  $('body').html("hahahh");
+</script>
+
+</body>
+</html>

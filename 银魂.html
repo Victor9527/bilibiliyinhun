@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页</title> 
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css"/>
+    <link rel="stylesheet" href="css/银魂.css"/>
+     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">   
+                <li class="active"><a href="#">首页</a></li>    //active当前活动的元素
+                <li><a href="">首页</a></li>
+                <li><a href="">首页</a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">首页</a></li>
+            </ul>
+                    <form action="" class="navbar-form navbar-right">
+	<a href="login.html" class="navbar-link">登录</a>
+	<a href="reg.html" class="navbar-link">注册</a>
+	<input type="text" class="form-control" placeholder="aaaaa"/>
+	<button class="btn btn-primary">搜索</button>
+</form>
+        </div>
+
+</nav>
+
+
+    <div class="index" id="index">
+        <img src="images/main_content.png" alt=""/>
+        <img src="images/time_text.png" alt=""/>
+        <img src="images/logo.png" alt=""/>
+        <img src="images/copyright_1.png" alt=""/>
+        <img src="images/copyright_2.png" alt=""/>
+
+    </div>
+    <div class="synopsis">
+
+    </div>
+    <div class="danmu"><video src=""></video></div>
+    <div class="major">
+    	<p>点击人物头像查看详情</p>
+    	<div class="btys">
+    		<span></span>
+    		<img src="images/btys.png" alt=""/>
+    	</div>
+    	<div class="gtsz">
+    		<span></span>
+    		<img src="images/gtsz.png" alt=""/>
+    	</div>
+    	<div class="gsjz">
+    		<span></span>
+    		<img src="images/gsjz.png" alt=""/>
+    	</div>
+        <div class="wsbpt">
+    		<span></span>
+    		<img src="images/wsbpt.png" alt=""/>
+    	</div>
+    	 <div class="ldyz">
+    		<span></span>
+    		<img src="images/ldyz.png" alt=""/>
+    	</div>
+    	<div class="gxtl">
+    		<span></span>
+    		<img src="images/gxtl.png" alt=""/>
+    	</div>
+    	<div class="sl">
+    		<span></span>
+    		<img src="images/sl.png" alt=""/>
+    	</div>
+    	<div class="phyw">
+    		<span></span>
+    		<img src="images/phyw.png" alt=""/>
+    	</div>   
+    	<div class="ctts">
+    		<span></span>
+    		<img src="images/ctts.png" alt=""/>
+    	</div>  
+    	<div class="cttz">
+    		<span></span>
+    		<img src="images/cttz.png" alt=""/>
+    	</div>  
+    	<div class="zcxb">
+    		<span></span>
+    		<img src="images/zcxb.png" alt=""/>
+    	</div>  
+    	<div class="zcm">
+    		<span></span>
+    		<img src="images/zcm.png" alt=""/>
+    	</div> 
+    	<div class="tfssl">
+    		<span></span>
+    		<img src="images/tfssl.png" alt=""/>
+    	</div> 
+    	<div class="jtx">
+    		<span></span>
+    		<img src="images/jtx.png" alt=""/>
+    	</div> 
+    	<div class="ctzw">
+    		<span></span>
+    		<img src="images/ctzw.png" alt=""/>
+    	</div>     	
+    </div>
+
+    <div class="juzhao swiper-container">
+    	
+    	<div class="juzhao-wrap swiper-wrapper">
+    		
+    <!--触发模态框的 按钮-->
+    		<div class="juzhao-div swiper-slide"><img src="images/1.jpg"  
+    			class="imgbtn" data-toggle="modal" data-target="#myModal">
+       		</div>
+
+
+
+    	</div>
+    	<div class="button-pre swiper-button-prev"></div>
+    	<div class="button-next swiper-button-next"></div>
+    </div>
+<!--//模态框外部 放在body里面-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+           aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        	
+        	
+        	<img src="images/1.jpg" alt="" />
+            <button type="button" id="close" class=" close" 
+            		data-dismiss="modal"      
+                	aria-hidden="true">                            
+            </button>
+            
+    	</div>	
+    </div>
+</div>
+    <div  class="bilibili"></div>
+    <!--<div  class="footer">
+    	
+    </div>-->
+
+
+  <!--************************锚点***********************-->
+ 
+    <!--第一种
+    <a href="#aaa">点击</a>
+    <a href="#" name="aaa">跳到我</a>
+    第二种
+    <a href="#nmae">点击我</a>
+    <div id="name">跳到我</div>
+    -->
+    <div class="anchor">
+        <ul>
+            <li><a href="javascript:;" class="onea"></a></li>
+            <li></li>
+            <li><a href="javascript:;" class="twoa"></a></li>
+            <li></li>
+            <li><a href="javascript:;" class="threea"></a></li>
+            <li></li>
+            <li><a href="javascript:;" class="foura"></a></li>
+            <li></li>
+            <li><a href="javascript:;" class="fivea"></a></li>
+            <li></li>
+            <li><a href="javascript:;" class="sixa"></a></li>
+        
+        </ul>
+    </div>
+  
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/swiper-3.4.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script>
+//**************剧照******************
+       
+            img="";
+        for(var i=1;i<=33;i++){
+    
+
+          			img+='<div class="juzhao-div swiper-slide"><img src="images/'+[i]+'.jpg'+'"alt=""class="imgbtn" data-toggle="modal" data-target="#myModal"/>'+'</div>';
+
+//        	console.log(imgarr);
+
+        };
+        $(".juzhao-wrap").html(img);
+	$(".juzhao-div img").click(function(){
+//		console.log($(this));
+		SRC=$(this)[0].src;
+		console.log(SRC);
+		$(".modal-content img").attr('src',SRC);
+	});
+        	
+    
+
+            
+          
+          var juzhaotu=new Swiper('.juzhao',{
+          	  slidesPerColumn : 3,
+    			slidesPerView:5,
+    			prevButton:".button-pre",
+    			nextButton:".button-next"
+          	
+          });
+//        $(".juzhao img").toggle(function(){
+////        	$(this).addClass("bigger");
+//			$(this).css("width","500px");
+//        })
+  //锚点
+           $(".onea").click(function(){
+			  $('body').animate({'scrollTop':0},900);
+          });
+          $(".twoa").click(function(){
+			  $('body').animate({'scrollTop':650},900);
+          });
+           $(".threea").click(function(){
+			  $('body').animate({'scrollTop':1310},900);
+          });
+          $(".foura").click(function(){
+			  $('body').animate({'scrollTop':1970},900);
+          });
+           $(".fivea").click(function(){
+			  $('body').animate({'scrollTop':2630},900);
+          });
+          $(".sixa").click(function(){
+          	$('body').animate({'scrollTop':3290},900);
+          })
+
+
+		var nowclick;
+		function dingwei(){
+			var height1 = document.documentElement.scrollTop || document.body.scrollTop;
+		//滚动条距离
+//		console.log(height1);
+		if(height1<600){
+			nowclick=$(".onea");
+			$(".onea").css({"display":"block","background":"white"});
+			$(".onea").parent().siblings().find("a").css("display","none");
+		}else if(height1<1250){
+			nowclick=$(".twoa");
+			$(".twoa").css({"display":"block","background":"white"});
+			$(".twoa").parent().siblings().find("a").css("display","none");
+		}else if(height1<1800){
+			nowclick=$(".threea");
+				$(".threea").css({"display":"block","background":"white"});
+				$(".threea").parent().siblings().find("a").css("display","none");
+			
+		}else if(height1<2500){
+			nowclick=$(".foura");
+				$(".foura").css({"display":"block","background":"white"});
+				$(".foura").parent().siblings().find("a").css("display","none");
+			
+		}else if(height1<3000){
+			nowclick=$(".fivea");
+				$(".fivea").css({"display":"block","background":"white"});
+				$(".fivea").parent().siblings().find("a").css("display","none");
+			
+		}else{
+			nowclick=$(".sixa");
+			nowclick=$(".sixa");
+
+				$(".sixa").css({"display":"block","background":"white"});
+				$(".sixa").parent().siblings().find("a").css("display","none");
+			
+		}
+		
+	}
+//		console.log($(".onea").parent().siblings().find("a"));
+//		$(".anchor li").click(function(){
+//			
+//	
+//			
+//			
+//			$(this).find("a").css({"display":"block","background":"white"});
+//			$(this).siblings().find('a').css("display","none");
+//		});
+	
+		
+		$(".anchor li").mouseenter(function(){
+			
+			
+			$(this).find("a").css({"display":"block","background":"white"});
+			$(this).siblings().find('a').not(nowclick).css("display","none");
+			
+		}).mouseleave(function(){
+			$(this).find("a").not(nowclick).css("display","none");
+			console.log($(this));
+		});
+		window.onload=function(){
+			$(".btys img").css("display","block");
+			dingwei();
+		};
+		window.onscroll=function(){
+			dingwei();
+		};
+//*************	主要角色***************************************
+		$(".major span").click(function(){
+			$(this).next().css("display","block");
+//			console.log($(this));
+			$(this).parent().siblings().find("img").css("display","none");
+			
+		}).mouseenter(function(){
+			$(this).css("cursor","pointer");
+		})
+		
+
+
+
+
+    </script>
+</body>
+</html>

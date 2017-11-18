@@ -1,0 +1,187 @@
+.share-list {
+  position: relative;
+  height: 35px;
+  padding: 10px 0;
+  font-size: 0;
+}
+.share-list .share-btn {
+  width: 35px;
+  height: 35px;
+  background: url(//static.hdslb.com/images/v3images/sharepic.png) no-repeat;
+  cursor: pointer;
+  padding-bottom: 5px;
+  margin: 0 8px;
+  position: relative;
+  display: inline-block;
+  transition: 0.2s all;
+}
+.share-list .share-btn .share-weixin {
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  left: -49px;
+  z-index: 1000;
+  padding: 15px;
+  border: 1px solid #ddd;
+  cursor: default;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s all;
+}
+.share-list .share-btn .share-weixin .qr-code {
+  width: 100px;
+  height: 100px;
+}
+.share-list .share-btn .share-weixin .qr-code canvas {
+  width: 100px !important;
+  height: 100px !important;
+}
+.share-list .share-btn .share-weixin p {
+  height: 20px;
+  line-height: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+.share-list .share-btn.btn_weixin {
+  background-position: 0 -520px;
+}
+.share-list .share-btn.btn_weixin:hover {
+  background-position: 0 -585px;
+}
+.share-list .share-btn.btn_weixin:hover .share-weixin {
+  visibility: visible;
+  opacity: 1;
+}
+.share-list .share-btn.btn_weibo {
+  background-position: 0 0;
+}
+.share-list .share-btn.btn_weibo:hover {
+  background-position: 0 -65px;
+}
+.share-list .share-btn.btn_qqweibo {
+  background-position: 0 -130px;
+}
+.share-list .share-btn.btn_qqweibo:hover {
+  background-position: 0 -195px;
+}
+.share-list .share-btn.btn_qqzone {
+  background-position: 0 -260px;
+}
+.share-list .share-btn.btn_qqzone:hover {
+  background-position: 0 -325px;
+}
+.share-list .share-btn#bdshare {
+  background-position: 0 -390px;
+}
+.share-list .share-btn#bdshare a {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background: none;
+}
+.share-list .share-btn#bdshare:hover {
+  background-position: 0 -455px;
+}
+.share-list .share-btn.btn_baidu {
+  background-position: 0 -390px;
+}
+.share-list .share-btn.btn_baidu a {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background: none;
+}
+.share-list .share-btn.btn_baidu:hover {
+  background-position: 0 -455px;
+}
+.icon-round .share-list {
+  position: relative;
+  height: 40px;
+  padding: 10px 0;
+  font-size: 0;
+}
+.icon-round .share-list .share-btn {
+  width: 42px;
+  height: 42px;
+  background: url(icon.png) no-repeat;
+  cursor: pointer;
+  padding-bottom: 5px;
+  margin: 0 8px;
+  position: relative;
+  display: inline-block;
+  transition: none;
+}
+.icon-round .share-list .share-btn .share-weixin {
+  background: #fff;
+  position: absolute;
+  top: 45px;
+  left: -47px;
+  z-index: 1000;
+  padding: 15px;
+  border: 1px solid #ddd;
+  cursor: default;
+  visibility: hidden;
+  opacity: 0;
+  transition: none;
+}
+.icon-round .share-list .share-btn .share-weixin .qr-code {
+  width: 100px;
+  height: 100px;
+  z-index: 99;
+}
+.icon-round .share-list .share-btn .share-weixin .qr-code canvas {
+  width: 100px !important;
+  height: 100px !important;
+}
+.icon-round .share-list .share-btn .share-weixin p {
+  height: 20px;
+  line-height: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+.icon-round .share-list .share-btn.btn_weixin {
+  background-position: 0 -191px;
+}
+.icon-round .share-list .share-btn.btn_weixin:hover {
+  background-position: -66px -191px;
+}
+.icon-round .share-list .share-btn.btn_weixin:hover .share-weixin {
+  visibility: visible;
+  opacity: 1;
+}
+.icon-round .share-list .share-btn.btn_weibo {
+  background-position: 0 0;
+}
+.icon-round .share-list .share-btn.btn_weibo:hover {
+  background-position: -64px 0;
+}
+.icon-round .share-list .share-btn.btn_qqzone {
+  background-position: 0 -128px;
+}
+.icon-round .share-list .share-btn.btn_qqzone:hover {
+  background-position: -64px -128px;
+}
+.icon-round .share-list .share-btn#bdshare {
+  background-position: 0 -65px;
+}
+.icon-round .share-list .share-btn#bdshare a {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background: none;
+}
+.icon-round .share-list .share-btn#bdshare:hover {
+  background-position: -64px -65px;
+}
+.icon-round .share-list .share-btn.btn_baidu {
+  background-position: 0 -65px;
+}
+.icon-round .share-list .share-btn.btn_baidu a {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background: none;
+}
+.icon-round .share-list .share-btn.btn_baidu:hover {
+  background-position: -64px -65px;
+}
